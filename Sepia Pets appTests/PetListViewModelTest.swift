@@ -54,7 +54,7 @@ final class PetListViewModelTest: XCTestCase {
     }
     
     func testIsWorkingHour_Success(){
-        viewModel.startAndEndTime(configTime: "M-F 9:00 - 23:00")
+        viewModel.startAndEndTime(configTime: "M-F 1:00 - 23:59")
         XCTAssert(viewModel.isWorkingHours == true)
     }
 }

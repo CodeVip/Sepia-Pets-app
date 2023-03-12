@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FC73D1CC29BDF9E10029B0D3 /* PetListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC73D1CB29BDF9E10029B0D3 /* PetListViewModelTest.swift */; };
+		FC73D1CE29BE51A30029B0D3 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = FC73D1CD29BE51A30029B0D3 /* Readme.md */; };
 		FCA80D1329BCC24C0072C4A4 /* Sepia_Pets_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA80D1229BCC24C0072C4A4 /* Sepia_Pets_appApp.swift */; };
 		FCA80D1729BCC24E0072C4A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA80D1629BCC24E0072C4A4 /* Assets.xcassets */; };
 		FCA80D1A29BCC24E0072C4A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA80D1929BCC24E0072C4A4 /* Preview Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		FC470F7D29BDAB39001A3A54 /* Sepia Pets appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sepia Pets appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC73D1CB29BDF9E10029B0D3 /* PetListViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListViewModelTest.swift; sourceTree = "<group>"; };
+		FC73D1CD29BE51A30029B0D3 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		FCA80D0F29BCC24C0072C4A4 /* Sepia Pets app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sepia Pets app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCA80D1229BCC24C0072C4A4 /* Sepia_Pets_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sepia_Pets_appApp.swift; sourceTree = "<group>"; };
 		FCA80D1629BCC24E0072C4A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 		FCA80D0629BCC24C0072C4A4 = {
 			isa = PBXGroup;
 			children = (
+				FC73D1CD29BE51A30029B0D3 /* Readme.md */,
 				FCA80D1129BCC24C0072C4A4 /* Sepia Pets app */,
 				FC470F7E29BDAB39001A3A54 /* Sepia Pets appTests */,
 				FCA80D1029BCC24C0072C4A4 /* Products */,
@@ -306,6 +309,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC73D1CE29BE51A30029B0D3 /* Readme.md in Resources */,
 				FCA80D1A29BCC24E0072C4A4 /* Preview Assets.xcassets in Resources */,
 				FCA80D5329BCE8890072C4A4 /* config.json in Resources */,
 				FCA80D4B29BCC8B50072C4A4 /* pets_list.json in Resources */,
