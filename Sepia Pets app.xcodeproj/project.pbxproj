@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC73D1CC29BDF9E10029B0D3 /* PetListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC73D1CB29BDF9E10029B0D3 /* PetListViewModelTest.swift */; };
+		FCA80D1329BCC24C0072C4A4 /* Sepia_Pets_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA80D1229BCC24C0072C4A4 /* Sepia_Pets_appApp.swift */; };
+		FCA80D1729BCC24E0072C4A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA80D1629BCC24E0072C4A4 /* Assets.xcassets */; };
+		FCA80D1A29BCC24E0072C4A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA80D1929BCC24E0072C4A4 /* Preview Assets.xcassets */; };
+		FCA80D3829BCC4010072C4A4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA80D3729BCC4000072C4A4 /* NetworkManager.swift */; };
+		FCA80D3B29BCC4140072C4A4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA80D3A29BCC4140072C4A4 /* Extensions.swift */; };
+		FCA80D4129BCC6D20072C4A4 /* PetListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA80D4029BCC6D20072C4A4 /* PetListViewModel.swift */; };
+		FCA80D4329BCC7100072C4A4 /* PetListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA80D4229BCC7100072C4A4 /* PetListModel.swift */; };
+		FCA80D4529BCC78D0072C4A4 /* PetListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA80D4429BCC78D0072C4A4 /* PetListCell.swift */; };
+		FCA80D4829BCC8070072C4A4 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA80D4729BCC8070072C4A4 /* AlertView.swift */; };
+		FCA80D4B29BCC8B50072C4A4 /* pets_list.json in Resources */ = {isa = PBXBuildFile; fileRef = FCA80D4A29BCC8B50072C4A4 /* pets_list.json */; };
+		FCA80D4D29BCC8FB0072C4A4 /* PetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA80D4C29BCC8FB0072C4A4 /* PetListView.swift */; };
+		FCA80D5129BCC9CA0072C4A4 /* PetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA80D5029BCC9CA0072C4A4 /* PetDetailView.swift */; };
+		FCA80D5329BCE8890072C4A4 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = FCA80D5229BCE8890072C4A4 /* config.json */; };
+		FCA80D5529BCE8E40072C4A4 /* ConfigModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA80D5429BCE8E40072C4A4 /* ConfigModel.swift */; };
+		FCA80D5A29BCED6B0072C4A4 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA80D5929BCED6B0072C4A4 /* Constant.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC470F8129BDAB39001A3A54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCA80D0729BCC24C0072C4A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCA80D0E29BCC24C0072C4A4;
+			remoteInfo = "Sepia Pets app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC470F7D29BDAB39001A3A54 /* Sepia Pets appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sepia Pets appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC73D1CB29BDF9E10029B0D3 /* PetListViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListViewModelTest.swift; sourceTree = "<group>"; };
+		FCA80D0F29BCC24C0072C4A4 /* Sepia Pets app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sepia Pets app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA80D1229BCC24C0072C4A4 /* Sepia_Pets_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sepia_Pets_appApp.swift; sourceTree = "<group>"; };
+		FCA80D1629BCC24E0072C4A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCA80D1929BCC24E0072C4A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FCA80D3729BCC4000072C4A4 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		FCA80D3A29BCC4140072C4A4 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FCA80D4029BCC6D20072C4A4 /* PetListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListViewModel.swift; sourceTree = "<group>"; };
+		FCA80D4229BCC7100072C4A4 /* PetListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListModel.swift; sourceTree = "<group>"; };
+		FCA80D4429BCC78D0072C4A4 /* PetListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListCell.swift; sourceTree = "<group>"; };
+		FCA80D4729BCC8070072C4A4 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		FCA80D4A29BCC8B50072C4A4 /* pets_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pets_list.json; sourceTree = "<group>"; };
+		FCA80D4C29BCC8FB0072C4A4 /* PetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListView.swift; sourceTree = "<group>"; };
+		FCA80D5029BCC9CA0072C4A4 /* PetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDetailView.swift; sourceTree = "<group>"; };
+		FCA80D5229BCE8890072C4A4 /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
+		FCA80D5429BCE8E40072C4A4 /* ConfigModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigModel.swift; sourceTree = "<group>"; };
+		FCA80D5929BCED6B0072C4A4 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC470F7A29BDAB39001A3A54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA80D0C29BCC24C0072C4A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC470F7E29BDAB39001A3A54 /* Sepia Pets appTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC73D1CB29BDF9E10029B0D3 /* PetListViewModelTest.swift */,
+			);
+			path = "Sepia Pets appTests";
+			sourceTree = "<group>";
+		};
+		FCA80D0629BCC24C0072C4A4 = {
+			isa = PBXGroup;
+			children = (
+				FCA80D1129BCC24C0072C4A4 /* Sepia Pets app */,
+				FC470F7E29BDAB39001A3A54 /* Sepia Pets appTests */,
+				FCA80D1029BCC24C0072C4A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCA80D1029BCC24C0072C4A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCA80D0F29BCC24C0072C4A4 /* Sepia Pets app.app */,
+				FC470F7D29BDAB39001A3A54 /* Sepia Pets appTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCA80D1129BCC24C0072C4A4 /* Sepia Pets app */ = {
+			isa = PBXGroup;
+			children = (
+				FCA80D1229BCC24C0072C4A4 /* Sepia_Pets_appApp.swift */,
+				FCA80D4629BCC7E00072C4A4 /* Alert */,
+				FCA80D5829BCED500072C4A4 /* Constant */,
+				FCA80D3629BCC4000072C4A4 /* Managers */,
+				FCA80D3929BCC4140072C4A4 /* Utils */,
+				FCA80D2029BCC2640072C4A4 /* PetList */,
+				FCA80D4E29BCC9830072C4A4 /* PetDetails */,
+				FCA80D4C29BCC8FB0072C4A4 /* PetListView.swift */,
+				FCA80D1629BCC24E0072C4A4 /* Assets.xcassets */,
+				FCA80D4929BCC8800072C4A4 /* JsonFile */,
+				FCA80D1829BCC24E0072C4A4 /* Preview Content */,
+			);
+			path = "Sepia Pets app";
+			sourceTree = "<group>";
+		};
+		FCA80D1829BCC24E0072C4A4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FCA80D1929BCC24E0072C4A4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FCA80D2029BCC2640072C4A4 /* PetList */ = {
+			isa = PBXGroup;
+			children = (
+				FCA80D3F29BCC69E0072C4A4 /* ViewModel */,
+				FCA80D3D29BCC6740072C4A4 /* Views */,
+				FCA80D3C29BCC6620072C4A4 /* Model */,
+			);
+			path = PetList;
+			sourceTree = "<group>";
+		};
+		FCA80D3629BCC4000072C4A4 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				FCA80D3729BCC4000072C4A4 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		FCA80D3929BCC4140072C4A4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FCA80D3A29BCC4140072C4A4 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FCA80D3C29BCC6620072C4A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FCA80D4229BCC7100072C4A4 /* PetListModel.swift */,
+				FCA80D5429BCE8E40072C4A4 /* ConfigModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FCA80D3D29BCC6740072C4A4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FCA80D4429BCC78D0072C4A4 /* PetListCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FCA80D3F29BCC69E0072C4A4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FCA80D4029BCC6D20072C4A4 /* PetListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FCA80D4629BCC7E00072C4A4 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				FCA80D4729BCC8070072C4A4 /* AlertView.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		FCA80D4929BCC8800072C4A4 /* JsonFile */ = {
+			isa = PBXGroup;
+			children = (
+				FCA80D4A29BCC8B50072C4A4 /* pets_list.json */,
+				FCA80D5229BCE8890072C4A4 /* config.json */,
+			);
+			path = JsonFile;
+			sourceTree = "<group>";
+		};
+		FCA80D4E29BCC9830072C4A4 /* PetDetails */ = {
+			isa = PBXGroup;
+			children = (
+				FCA80D4F29BCC9B20072C4A4 /* View */,
+			);
+			path = PetDetails;
+			sourceTree = "<group>";
+		};
+		FCA80D4F29BCC9B20072C4A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FCA80D5029BCC9CA0072C4A4 /* PetDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FCA80D5829BCED500072C4A4 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				FCA80D5929BCED6B0072C4A4 /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC470F7C29BDAB39001A3A54 /* Sepia Pets appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC470F8329BDAB3A001A3A54 /* Build configuration list for PBXNativeTarget "Sepia Pets appTests" */;
+			buildPhases = (
+				FC470F7929BDAB39001A3A54 /* Sources */,
+				FC470F7A29BDAB39001A3A54 /* Frameworks */,
+				FC470F7B29BDAB39001A3A54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC470F8229BDAB39001A3A54 /* PBXTargetDependency */,
+			);
+			name = "Sepia Pets appTests";
+			productName = "Sepia Pets appTests";
+			productReference = FC470F7D29BDAB39001A3A54 /* Sepia Pets appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCA80D0E29BCC24C0072C4A4 /* Sepia Pets app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA80D1D29BCC24E0072C4A4 /* Build configuration list for PBXNativeTarget "Sepia Pets app" */;
+			buildPhases = (
+				FCA80D0B29BCC24C0072C4A4 /* Sources */,
+				FCA80D0C29BCC24C0072C4A4 /* Frameworks */,
+				FCA80D0D29BCC24C0072C4A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sepia Pets app";
+			productName = "Sepia Pets app";
+			productReference = FCA80D0F29BCC24C0072C4A4 /* Sepia Pets app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCA80D0729BCC24C0072C4A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					FC470F7C29BDAB39001A3A54 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = FCA80D0E29BCC24C0072C4A4;
+					};
+					FCA80D0E29BCC24C0072C4A4 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = FCA80D0A29BCC24C0072C4A4 /* Build configuration list for PBXProject "Sepia Pets app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCA80D0629BCC24C0072C4A4;
+			productRefGroup = FCA80D1029BCC24C0072C4A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCA80D0E29BCC24C0072C4A4 /* Sepia Pets app */,
+				FC470F7C29BDAB39001A3A54 /* Sepia Pets appTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC470F7B29BDAB39001A3A54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA80D0D29BCC24C0072C4A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA80D1A29BCC24E0072C4A4 /* Preview Assets.xcassets in Resources */,
+				FCA80D5329BCE8890072C4A4 /* config.json in Resources */,
+				FCA80D4B29BCC8B50072C4A4 /* pets_list.json in Resources */,
+				FCA80D1729BCC24E0072C4A4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC470F7929BDAB39001A3A54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC73D1CC29BDF9E10029B0D3 /* PetListViewModelTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA80D0B29BCC24C0072C4A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA80D3829BCC4010072C4A4 /* NetworkManager.swift in Sources */,
+				FCA80D4329BCC7100072C4A4 /* PetListModel.swift in Sources */,
+				FCA80D1329BCC24C0072C4A4 /* Sepia_Pets_appApp.swift in Sources */,
+				FCA80D5129BCC9CA0072C4A4 /* PetDetailView.swift in Sources */,
+				FCA80D4529BCC78D0072C4A4 /* PetListCell.swift in Sources */,
+				FCA80D4829BCC8070072C4A4 /* AlertView.swift in Sources */,
+				FCA80D3B29BCC4140072C4A4 /* Extensions.swift in Sources */,
+				FCA80D4D29BCC8FB0072C4A4 /* PetListView.swift in Sources */,
+				FCA80D4129BCC6D20072C4A4 /* PetListViewModel.swift in Sources */,
+				FCA80D5529BCE8E40072C4A4 /* ConfigModel.swift in Sources */,
+				FCA80D5A29BCED6B0072C4A4 /* Constant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC470F8229BDAB39001A3A54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCA80D0E29BCC24C0072C4A4 /* Sepia Pets app */;
+			targetProxy = FC470F8129BDAB39001A3A54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FC470F8429BDAB3A001A3A54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hello.Sepia-Pets-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sepia Pets app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sepia Pets app";
+			};
+			name = Debug;
+		};
+		FC470F8529BDAB3A001A3A54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hello.Sepia-Pets-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sepia Pets app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sepia Pets app";
+			};
+			name = Release;
+		};
+		FCA80D1B29BCC24E0072C4A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCA80D1C29BCC24E0072C4A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCA80D1E29BCC24E0072C4A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sepia Pets app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hello.Sepia-Pets-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCA80D1F29BCC24E0072C4A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sepia Pets app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hello.Sepia-Pets-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC470F8329BDAB3A001A3A54 /* Build configuration list for PBXNativeTarget "Sepia Pets appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC470F8429BDAB3A001A3A54 /* Debug */,
+				FC470F8529BDAB3A001A3A54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCA80D0A29BCC24C0072C4A4 /* Build configuration list for PBXProject "Sepia Pets app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA80D1B29BCC24E0072C4A4 /* Debug */,
+				FCA80D1C29BCC24E0072C4A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCA80D1D29BCC24E0072C4A4 /* Build configuration list for PBXNativeTarget "Sepia Pets app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA80D1E29BCC24E0072C4A4 /* Debug */,
+				FCA80D1F29BCC24E0072C4A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCA80D0729BCC24C0072C4A4 /* Project object */;
+}
