@@ -27,7 +27,7 @@ class PetListViewModel:ObservableObject{
                 print("Error is \(err.localizedDescription)")
             case .finished:
                 print("Finished")
-               
+                break
             }
         } receiveValue: { [weak self]  listPet in
             self?.petList = listPet.pets
