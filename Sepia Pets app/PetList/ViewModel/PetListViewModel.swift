@@ -40,7 +40,7 @@ class PetListViewModel:ObservableObject{
             switch comletion{
             case .failure(let err):
                 self.errorConfig = err.localizedDescription
-               // print("Error is \(err.localizedDescription)")
+                print("Error is \(err.localizedDescription)")
             case .finished:
                 print("Finished")
             }
