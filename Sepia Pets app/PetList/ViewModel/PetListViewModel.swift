@@ -24,9 +24,9 @@ class PetListViewModel:ObservableObject{
             switch completion {
             case .failure(let err):
                 self.errorList = err.localizedDescription
-                print("Error is \(err.localizedDescription)")
+               // print("Error is \(err.localizedDescription)")
             case .finished:
-                print("Finished")
+              //  print("Finished")
                 break
             }
         } receiveValue: { [weak self]  listPet in
@@ -40,9 +40,9 @@ class PetListViewModel:ObservableObject{
             switch comletion{
             case .failure(let err):
                 self.errorConfig = err.localizedDescription
-                print("Error is \(err.localizedDescription)")
+               // print("Error is \(err.localizedDescription)")
             case .finished:
-                print("Finished")
+               // print("Finished")
             }
             
         } receiveValue: { [weak self]  configDetail in
