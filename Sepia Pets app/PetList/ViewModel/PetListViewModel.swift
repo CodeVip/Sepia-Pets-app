@@ -28,6 +28,7 @@ class PetListViewModel:ObservableObject{
             case .finished:
                 print("Finished")
                 break
+                
             }
         } receiveValue: { [weak self]  listPet in
             self?.petList = listPet.pets
@@ -44,6 +45,7 @@ class PetListViewModel:ObservableObject{
             case .finished:
                 print("Finished")
                 break
+                
             }
             
         } receiveValue: { [weak self]  configDetail in
