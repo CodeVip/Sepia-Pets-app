@@ -25,6 +25,7 @@ class PetListViewModel:ObservableObject{
             case .failure(let err):
                 self.errorList = err.localizedDescription
                // print("Error is \(err.localizedDescription)")
+                break
             case .finished:
                 print("Finished")
                 break
@@ -42,6 +43,7 @@ class PetListViewModel:ObservableObject{
             case .failure(let err):
                 self.errorConfig = err.localizedDescription
                // print("Error is \(err.localizedDescription)")
+                break
             case .finished:
                 print("Finished")
                 break
