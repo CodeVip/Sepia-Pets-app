@@ -13,7 +13,7 @@ class PetListViewModel:ObservableObject{
     @Published var errorList:String?
     @Published var errorConfig:String?
     @Published var petList = [Pet]()
-    @Published var isWorkingHours = false
+    @Published var isWorkingHours = true
     private var cancellables = Set<AnyCancellable>()
     init(apiNetWork: NetworkManager!, error: String? = nil) {
         self.apiNetWork = apiNetWork
@@ -61,7 +61,7 @@ class PetListViewModel:ObservableObject{
             print(response[Range(end, in: response)!])
             let startTime = "\(response[Range(start, in: response)!])"
             let endTime = "\(response[Range(end, in: response)!])"
-            isWorkingHours = checkIfCurrentTimeIsBetween(startTime: startTime, endTime: endTime)
+          //  isWorkingHours = checkIfCurrentTimeIsBetween(startTime: startTime, endTime: endTime)
         }
     }
     
