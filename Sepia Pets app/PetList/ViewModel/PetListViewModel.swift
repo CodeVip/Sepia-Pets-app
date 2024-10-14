@@ -25,10 +25,10 @@ class PetListViewModel:ObservableObject{
             case .failure(let err):
                 self.errorList = err.localizedDescription
                // print("Error is \(err.localizedDescription)")
-                break
+              //  break
             case .finished:
                 print("Finished")
-                break
+               // break
                 
             }
         } receiveValue: { [weak self]  listPet in
@@ -43,7 +43,7 @@ class PetListViewModel:ObservableObject{
             case .failure(let err):
                 self.errorConfig = err.localizedDescription
                // print("Error is \(err.localizedDescription)")
-                break
+               // break
             case .finished:
                 print("Finished")
                 break
