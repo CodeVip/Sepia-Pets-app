@@ -24,11 +24,11 @@ class PetListViewModel:ObservableObject{
             switch completion {
             case .failure(let err):
                 self.errorList = err.localizedDescription
-               // print("Error is \(err.localizedDescription)")
-              //  break
+                print("Error is \(err.localizedDescription)")
+               print("on UAt branch")
             case .finished:
                 print("Finished")
-               // break
+               break
                 
             }
         } receiveValue: { [weak self]  listPet in
@@ -42,7 +42,8 @@ class PetListViewModel:ObservableObject{
             switch comletion{
             case .failure(let err):
                 self.errorConfig = err.localizedDescription
-               // print("Error is \(err.localizedDescription)")
+                print("Error is \(err.localizedDescription)")
+                print("on UAt branch")
                // break
             case .finished:
                 print("Finished")
